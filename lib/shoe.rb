@@ -8,7 +8,7 @@ class Shoe
   end
 
   def condition=(condition)
-   @condition = "new"
+   @condition = "tattered"
   end
 
  def condition
@@ -17,7 +17,7 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
-    @condition = "tattered"
+    @condition = "new"
   end
 
 end
